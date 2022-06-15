@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  frontend:
+    container_name: frontend
+    build: .
+    image: sultansam/wayshub:1.0
+    stdin_open: true
+    ports:
+    - 3344:3000
