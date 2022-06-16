@@ -23,9 +23,7 @@ pipeline{
                         steps{
                                 sshagent([secret]) {
                                         sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
-                                        cd ${dir}/nginx
-					docker build -t nginx:re .
-					cd ..
+                                        cd ${dir}
                                         docker-compose build
                                         exit
                                         EOF"""
