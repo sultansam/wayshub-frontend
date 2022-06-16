@@ -1,6 +1,6 @@
 def secret = 'server'
-def server = 'sultan@103.55.37.150'
-def dir = 'wayshub'
+def server = 'aplikasi@103.181.143.205'
+def dir = 'wayshub-frontend'
 def branch = 'master'
 
 pipeline{
