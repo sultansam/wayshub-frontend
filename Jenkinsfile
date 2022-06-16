@@ -1,7 +1,7 @@
 def secret = 'server'
 def server = 'aplikasi@103.181.143.205'
 def dir = 'wayshub-frontend'
-def branch = 'master'
+def branch = 'main'
 
 pipeline{
 	agent any
