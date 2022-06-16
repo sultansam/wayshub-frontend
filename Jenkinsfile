@@ -1,5 +1,5 @@
 def secret = 'server'
-def server = 'sultan@103.181.143.205'
+def server = 'sultan@103.55.37.150'
 def dir = 'wayshub'
 def branch = 'master'
 
@@ -11,7 +11,7 @@ pipeline{
 				sshagent([secret]) {
 					sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
 					cd ${dir}
-					docker-compose down 
+					docker-compose down
 					docker system prune -f
 					git pull origin ${branch}
 					exit
