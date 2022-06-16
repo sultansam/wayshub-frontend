@@ -1,4 +1,4 @@
-def secret = 'server'
+def secret = 'sultan'
 def server = 'aplikasi@103.181.143.205'
 def dir = 'wayshub-frontend'
 def branch = 'main'
