@@ -39,8 +39,11 @@ pipeline{
                                         exit
                                         EOF"""
                                 }
+				
                         }
-                }
+		
+               }
 
 	}
+	
 }
